@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+:root {
+  --primary-color: #FF6F3C;
+  --secondary-color: #2B6CB0;
+  --background-color: #F5F5F5;
+  --light-gray: #E2E8F0;
+  --text-color: #4A403A;
+  --accent-color: #1DE9B6; 
+  --hover-color: #FFD700;
+  --highlight-color: #FF9AA2;
+  --white-color: #fff;
+  --black-color: #111;
+}
+
+.icon {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
