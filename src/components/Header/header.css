@@ -15,6 +15,9 @@
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+  background: linear-gradient(to right, #fd2600, #ffbfa3);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .header-container .header-search {
@@ -53,6 +56,6 @@
   justify-content: center;
 }
 
-.item-trend svg{
+/* .item-trend svg {
   color: rgb(255, 88, 5);
-}
+} */

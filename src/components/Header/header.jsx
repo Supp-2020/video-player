@@ -13,7 +13,7 @@ const Header = () => {
         <div className="header-logo">Video Player</div>
         <div className="header-search">
           <form action="">
-            <input placeholder="Search" className="search-input" />
+            <input placeholder="Search Videos..." className="search-input" name="search-input"/>
           </form>
         </div>
         <div className="header-profile">
