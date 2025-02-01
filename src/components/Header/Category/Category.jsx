@@ -11,7 +11,7 @@ const Category = () => {
   return (
     <div className='category-main-wrapper' data-testid="nav-category-wrapper">
       <div className='category-container'>
-        <div className='category-item item-trend'>
+        <div className='category-item'>
           <IoMdTrendingUp className='category-icon' />
           <span>Trending</span>
         </div>

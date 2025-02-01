@@ -54,8 +54,97 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
-/* .item-trend svg {
-  color: rgb(255, 88, 5);
-} */
+.category-icon {
+  margin-right: 8px;
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.category-item span {
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Hover effects with different colors for each category */
+.category-item:hover .category-icon {
+  transform: scale(1.1); /* Slightly enlarge the icon */
+}
+
+.category-item:hover span {
+  text-decoration: underline;
+}
+/* Individual hover colors */
+category-item:nth-child(1):hover .category-icon {
+  color: #e74c3c; 
+}
+
+category-item:nth-child(1):hover span {
+  color: #e74c3c; 
+}
+
+.category-item:nth-child(2):hover .category-icon {
+  color: #1abc9c; 
+}
+
+.category-item:nth-child(2):hover span {
+  color: #1abc9c; 
+}
+
+.category-item:nth-child(3):hover .category-icon {
+  color: #f39c12; 
+}
+
+.category-item:nth-child(3):hover span {
+  color: #f39c12; 
+}
+
+.category-item:nth-child(4):hover .category-icon {
+  color: #9b59b6; 
+}
+
+.category-item:nth-child(4):hover span {
+  color: #9b59b6; 
+}
+
+.category-item:nth-child(5):hover .category-icon {
+  color: #3498db; 
+}
+
+.category-item:nth-child(5):hover span {
+  color: #3498db; 
+}
+
+.category-item:nth-child(6):hover .category-icon {
+  color: #e67e22; 
+}
+
+.category-item:nth-child(6):hover span {
+  color: #e67e22; 
+}
+
+.category-item:nth-child(7):hover .category-icon {
+  color: #2ecc71; 
+}
+
+.category-item:nth-child(7):hover span {
+  color: #2ecc71; 
+}
+
+.category-item:nth-child(8):hover .category-icon {
+  color: #9b59b6; 
+}
+
+.category-item:nth-child(8):hover span {
+  color: #9b59b6; 
+}
+
+.category-item:nth-child(9):hover .category-icon {
+  color: #f1c40f; 
+}
+
+.category-item:nth-child(9):hover span {
+  color: #f1c40f; 
+}

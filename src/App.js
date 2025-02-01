@@ -1,5 +1,6 @@
 import React, { createContext } from "react";
 import Header from "./components/Header/header.jsx";
+import VideoPlayer from "./components/VideoPlayer/VideoPlayer.jsx";
 
 function App() {
   const AppContext = createContext();
@@ -9,6 +10,7 @@ function App() {
     <AppContext.Provider value={valueProvider}>
       <div className="App">
         <Header />
+        <VideoPlayer />
       </div>
     </AppContext.Provider>
   );
