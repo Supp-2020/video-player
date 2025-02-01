@@ -1,8 +1,8 @@
 .nav-main-container {
   width: 100%;
 }
+
 .header-container {
-  border: 1px solid red;
   width: 100%;
   padding: 10px 8px;
   display: flex;
@@ -11,36 +11,48 @@
 }
 
 .header-container .header-logo {
-  flex: 0 0 20%; 
+  flex: 0 0 20%;
   font-size: 24px;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
+
 .header-container .header-search {
-  flex: 0 0 40%; 
+  flex: 0 0 40%;
 }
 
 .header-search .search-input {
   padding: 7px 6px;
-  border-radius: 0px;
+  border-radius: 3px;
   width: 100%;
+  border: 2px solid var(--gray-color);
 }
 
 .header-container .header-profile {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 0 0 20%; 
+  flex: 0 0 20%;
   gap: 15px;
 }
-.header-profile .like-icon:hover {
-  opacity: 0.5;
+.category-main-wrapper {
+  margin-top: 15px;
 }
-.header-profile .notification-icon:hover {
-  opacity: 0.5;
+
+.category-container {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.header-profile .profile-icon:hover {
-  opacity: 0.5;
+
+.category-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-trend svg{
+  color: rgb(255, 88, 5);
 }
