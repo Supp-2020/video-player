@@ -4,10 +4,10 @@ import VideoPlayer from '../../../utils/VideoPlayer/VideoPlayer'
 
 const MainVideoPlayer = () => {
   return (
-    <div className={styles.mainVideoPlayer}>
+    <section className={styles.mainVideoPlayer}>
     MainVideoPlayer
     <VideoPlayer/>
-    </div>
+    </section>
   )
 }
 

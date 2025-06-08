@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 const API_KEY = 'qxr7zAhhcw8GMP0eEnRKuSdgNmqa8Pm1R4SvDyYsi6SQcoje0d5205Bl';
 
-const usePexelsVideos = ({ type = 'popular', query = '', perPage = 10 }) => {
+const usePexelsVideos = ({ type , query , perPage }) => {
   // type: 'popular' or 'search'
 
   const [videos, setVideos] = useState([]);
