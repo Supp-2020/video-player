@@ -1,7 +1,6 @@
 .video-player-main-wrapper {
   margin: 15px 0;
   min-height: 50vh;
-  border: 1px solid red;
 }
 .video-player-container {
   display: flex;

@@ -13,7 +13,7 @@ const Category = () => {
       <div className='category-container'>
         <div className='category-item'>
           <IoMdTrendingUp className='category-icon' />
-          <span>Trending</span>
+          <span>Popular</span>
         </div>
         <div className='category-item'>
           <IoMusicalNotes className='category-icon' />
