@@ -1,0 +1,13 @@
+.mainBodyWrapper {
+  width: 100%;
+  padding: 30px 50px;
+}
+
+.mainVideo {
+  width: 100%;
+  display: flex;
+}
+
+.subVideo {
+  width: 100%;
+}

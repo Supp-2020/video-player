@@ -16,7 +16,7 @@
   font-weight: bold;
   text-align: center;
   background: linear-gradient(to right, #fd2600, #ffbfa3);
-  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
